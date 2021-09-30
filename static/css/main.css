@@ -1,0 +1,169 @@
+/* ШРИФТЫ */
+@font-face {
+    font-family: 'Minecraft Rus';
+    src: url('../fonts/Minecraft.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('../fonts/OpenSans.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Underdog';
+    src: url('../fonts/Underdog.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* <div id="***'> </div> */
+#main {
+    width: 960px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50px;
+}
+#right {
+    width: 25%;
+    float: right;
+}
+#left {
+    width: 70%;
+    float: left;
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    height: 64px;
+    background: #222;
+    color: #fff;
+    padding: 10px 0;
+}
+body {
+    font-family: 'Open Sans';
+    background: #F8F9FB;
+    background-size: cover;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 100%;
+    overflow-y: scroll;
+}
+footer {
+    width: 100%;
+    background: #222;
+    color: #fff;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+}
+
+.footer {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px
+}
+
+.block {
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 20px 0 20px 0px;
+}
+
+.logo {
+    width: 64px;
+    height: 64px;
+    background-image: url('../images/logo.png');
+    background-size: contain;
+    background-repeat:no-repeat;
+    margin-left: 50px;
+}
+/* 404 */
+.page-not-found {
+    background-image: url('../images/backgrounds/404.jpg');
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.page-not-found p {
+    font-family: 'Minecraft Rus';
+    font-size: 80px;
+    color: #fff;
+    text-shadow: 8px 8px 20px rgb(0 0 0 / 90%);
+}
+
+/* Иконки */
+.icon_rules {
+    width: 64px;
+    height: 64px;
+    background: url('../images/icons/icon_rules.png');
+}
+
+.icon_donate {
+    width: 64px;
+    height: 64px;
+    background: url('../images/icons/icon_donate.png');
+}
+
+.icon_menu {
+    width: 64px;
+    height: 64px;
+    background: url('../images/icons/icon_menu.png');
+}
+
+.icon_board {
+    width: 64px;
+    height: 64px;
+    background: url('../images/icons/icon_board.png');
+}
+
+.icon_servers {
+    width: 64px;
+    height: 64px;
+    background: url('../images/icons/icon_servers.png');
+}
+
+.icon_more {
+    width: 64px;
+    height: 64px;
+    background: url('../images/icons/icon_more.png');
+}
+
+.icon_mods {
+    width: 64px;
+    height: 64px;
+    background: url('../images/icons/icon_mods.png');
+}
+
+/* Задние фоны */
+.main-background {
+    background-image: url('../images/backgrounds/main.jpg');
+}
+
+.skins-background {
+    background-image: url('../images/backgrounds/skins.jpg');
+}
+
+.donate-background {
+    background-image: url('../images/backgrounds/donate.jpg');
+}
+
+.board-background {
+    background-image: url('../images/backgrounds/board.jpg');
+}
+
+.rules-background {
+    background-image: url('../images/backgrounds/rules.jpg');
+}
+
+.faq-background {
+    background-image: url('../images/backgrounds/faq.jpg');
+}

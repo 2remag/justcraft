@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Новости JustCraft
+{% endblock %}
+
+{% block body %}
+<div class="container mt-5">
+    <h1>{{ new.title }}</h1>
+
+    <div class="alert alert-info">
+        <p>{{ new.text }}</p>
+        <p><b>Дата: {{ new.date.date() }}</b></p>
+        <a href="/posts/{{ new.id}}/delete" class="btn btn-danger">Удалить</a>
+        <a href="/posts/{{ new.id}}/update" class="btn btn-success">Редактировать</a>
+    </div>
+
+</div>
+{% endblock %}
